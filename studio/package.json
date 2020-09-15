@@ -17,7 +17,7 @@
     "@sanity/cli": "^1.150",
     "@sanity/components": "^1.150",
     "@sanity/core": "^1.150",
-    "@sanity/dashboard": "^1.150",
+    "@sanity/dashboard": "^1.150.7",
     "@sanity/default-layout": "^1.150",
     "@sanity/default-login": "^1.150",
     "@sanity/desk-tool": "^1.150",
@@ -27,6 +27,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "sanity-plugin-dashboard-widget-document-list": "^0.0.11",
+    "sanity-plugin-dashboard-widget-gatsby": "^1.0.9",
     "sanity-plugin-dashboard-widget-netlify": "^1.0.1"
   },
   "devDependencies": {

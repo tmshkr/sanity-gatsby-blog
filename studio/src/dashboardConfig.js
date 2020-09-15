@@ -1,5 +1,15 @@
 export default {
   widgets: [
+    {
+      name: 'gatsby',
+      options: {
+        sites: [
+          {
+            siteUrl: 'https://preview-sanitygatsbyblogproductio24070.gtsb.io/'
+          }
+        ]
+      }
+    },
     { name: 'structure-menu' },
     {
       name: 'project-info',
@@ -33,7 +43,11 @@ export default {
             value: 'https://github.com/tmshkr/sanity-gatsby-blog',
             category: 'Code'
           },
-          { title: 'Frontend', value: 'https://sanity-gatsby-blog-web-mhqykngm.netlify.app', category: 'apps' }
+          {
+            title: 'Frontend',
+            value: 'https://sanity-gatsby-blog-web-mhqykngm.netlify.app',
+            category: 'apps'
+          }
         ]
       }
     },
